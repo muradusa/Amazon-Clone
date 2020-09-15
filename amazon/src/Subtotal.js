@@ -3,6 +3,8 @@ import "./Subtotal.css";
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "./StateProvider";
 
+//Delete later
+
 function Subtotal() {
   const [{ basket }, dispatch] = useStateValue();
   return (
