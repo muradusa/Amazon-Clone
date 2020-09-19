@@ -7,6 +7,8 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "./reducer";
 
+////////////////// Delete after
+
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
 
